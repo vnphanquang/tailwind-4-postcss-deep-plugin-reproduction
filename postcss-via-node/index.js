@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/postcss";
 const css = String.raw;
 const html = String.raw;
 
-const result = await postcss(
+const result = await postcss([
 	tailwindcss({
 		content: [
 			{
@@ -13,7 +13,7 @@ const result = await postcss(
 			},
 		],
 	}),
-).process(
+]).process(
 	css`
 		@tailwind utilities;
 		@import "design-system/css";

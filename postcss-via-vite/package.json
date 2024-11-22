@@ -1,0 +1,12 @@
+{
+  "name": "vite",
+  "type": "module",
+	"scripts": {
+		"build": "vite build --mode production"
+	},
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.0.0-beta.1",
+		"design-system": "workspace:*",
+    "vite": "^5.4.11"
+  }
+}

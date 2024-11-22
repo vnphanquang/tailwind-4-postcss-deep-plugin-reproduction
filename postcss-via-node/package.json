@@ -1,5 +1,5 @@
 {
-	"name": "site",
+	"name": "postcss-via-node",
 	"type": "module",
 	"devDependencies": {
 		"@tailwindcss/postcss": "4.0.0-beta.1",
