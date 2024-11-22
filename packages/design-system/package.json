@@ -1,0 +1,10 @@
+{
+	"name": "design-system",
+	"type": "module",
+	"exports": {
+		"./css": "./design.css"
+	},
+	"dependencies": {
+		"plugin-js": "workspace:*"
+	}
+}

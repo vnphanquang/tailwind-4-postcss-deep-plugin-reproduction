@@ -1,0 +1,10 @@
+{
+	"name": "plugin-js",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./index.js",
+			"default": "./index.js"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "site",
+	"type": "module",
+	"devDependencies": {
+		"@tailwindcss/postcss": "4.0.0-beta.1",
+		"design-system": "workspace:*",
+		"postcss": "^8.4.49"
+	}
+}
